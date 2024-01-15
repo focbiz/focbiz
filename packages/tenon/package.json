@@ -1,5 +1,5 @@
 {
-  "name": "focbiz",
+  "name": "@focbiz/tenon",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,11 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "dumi": "^2.2.14",
-    "lerna": "^7.4.2",
-    "rollup": "^4.4.1",
-    "typescript": "^5.2.2"
-  }
+  "license": "ISC"
 }
