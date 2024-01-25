@@ -6,9 +6,25 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "focbiz",
+    "低代码",
+    "designer",
+    "low code",
+    "no code"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "zhangchunyuan",
+    "email": "zhangchunyuan@proton.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/focbiz/focbiz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/focbiz/focbiz/issues"
+  },
   "devDependencies": {
     "dumi": "^2.2.14",
     "lerna": "^7.4.2",
