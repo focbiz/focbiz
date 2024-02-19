@@ -2,11 +2,26 @@
   "name": "@focbiz/loong",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib",
+  "module": "esm",
+  "types": "./types/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean:dist": "rimraf dist",
+    "build:types": "npm run clean:dist && tsc -b ./tsconfig.types.json",
+    "build:cjs": "tsc --project tsconfig.json",
+    "build:esm": "tsc --project tsconfig.json --module es2015 --outDir esm",
+    "build": "npm run build:types && + -c"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "use-sync-external-store": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/use-sync-external-store": "^0.0.6"
+  }
 }
