@@ -4,13 +4,17 @@
   "description": "",
   "main": "lib",
   "module": "esm",
+  "type":"module",
   "types": "./types/index.d.ts",
   "scripts": {
     "clean:dist": "rimraf dist",
-    "build:types": "npm run clean:dist && tsc -b ./tsconfig.types.json",
+    "clean:cjs": "rimraf cjs",
+    "clean:esm": "rimraf esm",
+    "build:types": "tsc -b ./tsconfig.types.json",
     "build:cjs": "tsc --project tsconfig.json",
     "build:esm": "tsc --project tsconfig.json --module es2015 --outDir esm",
-    "build": "npm run build:types && + -c"
+    "build:umd": "rollup -c",
+    "build": "npm run build:types && npm run build:umd && npm run build:cjs && npm run build:esm"
   },
   "keywords": [],
   "author": "",
