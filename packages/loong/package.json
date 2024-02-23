@@ -4,7 +4,6 @@
   "description": "",
   "main": "lib",
   "module": "esm",
-  "type":"module",
   "types": "./types/index.d.ts",
   "scripts": {
     "clean:dist": "rimraf dist",
