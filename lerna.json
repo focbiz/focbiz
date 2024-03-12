@@ -1,15 +1,14 @@
 {
-    "version": "1.0.0",
-    "npmClient": "pnpm",
-    "useWorkspaces": true,
-    "npmClientArgs": [
-        "--ignore-engines"
-    ],
-    "command": {
-        "version": {
-            "forcePublish": true,
-            "exact": true,
-            "message": "chore(versions): 😊 publish %s"
-        }
+  "version": "1.0.6",
+  "npmClient": "pnpm",
+  "packages": [
+    "packages/loong"
+  ],
+  "command": {
+    "version": {
+      "forcePublish": true,
+      "exact": true,
+      "message": "chore(versions): 😊 publish %s"
     }
+  }
 }
