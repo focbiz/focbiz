@@ -1,6 +1,6 @@
 {
   "name": "@focbiz/loong",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "",
   "main": "lib",
   "module": "esm",
@@ -29,5 +29,5 @@
   "devDependencies": {
     "@types/use-sync-external-store": "^0.0.6"
   },
-  "gitHead": "11c02658b511a5fee4369f5f75af9a3e1d638644"
+  "gitHead": "2b4b24bb733609bf74f29fceaf9f59b51edda95d"
 }
