@@ -1,11 +1,10 @@
 {
   "name": "@focbiz/loong",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "",
   "main": "lib",
   "module": "esm",
   "types": "./types/index.d.ts",
-  "type": "module",
   "scripts": {
     "clean:dist": "rimraf dist",
     "clean:cjs": "rimraf lib",
